@@ -1,0 +1,6 @@
+version: '3.7'
+services:
+  laravel:
+    image: serversideup/php:8.2-fpm-nginx
+    volumes:
+      - .:/var/www/html/
