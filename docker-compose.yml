@@ -4,3 +4,8 @@ services:
     image: serversideup/php:8.2-fpm-nginx
     volumes:
       - .:/var/www/html/
+    ports:
+      - '8080:80'
+    environment:
+      - SSL_MODE=off
+      - AUTORUN_LARAVEL_STORAGE_LINK=false
