@@ -1,6 +1,6 @@
 version: '3.7'
 services:
-  laravel:
+  http:
     image: ramageek/php:8.1-javan
     volumes:
       - .:/var/www/html/
